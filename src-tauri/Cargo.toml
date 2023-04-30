@@ -28,4 +28,5 @@ panic = "abort"
 codegen-units = 1
 lto = true
 incremental = false
-opt-level = "s"
+opt-level = "z"
+strip = true
